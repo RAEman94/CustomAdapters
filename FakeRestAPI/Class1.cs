@@ -10,7 +10,7 @@ namespace FakeRestAPI
         public static void Run()
         {
             var req = new Requests<List<FakeRestDTO>>();
-            req.Get("");
+            req.Get("http://10.201.8.2/Users/");
         }
     }
 }
